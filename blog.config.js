@@ -38,7 +38,7 @@ const BLOG = {
   ...require('./conf/code.config'), // 网站代码块样式
   ...require('./conf/animation.config'), // 动效美化效果
   ...require('./conf/widget.config'), // 悬浮在网页上的挂件，聊天客服、宠物挂件、音乐播放器等
-  ...require('./conf/ad.config'), // 广告营收插件
+  // ...require('./conf/ad.config'), // 广告营收插件
   ...require('./conf/plugin.config'), // 其他第三方插件 algolia全文索引
 
   // 高级用法
