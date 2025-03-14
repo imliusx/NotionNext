@@ -10,16 +10,24 @@ module.exports = {
   // 字体CSS 例如 https://npm.elemecdn.com/lxgw-wenkai-webfont@1.6.0/style.css
   FONT_URL: [
     // 'https://npm.elemecdn.com/lxgw-wenkai-webfont@1.6.0/style.css',
-    'https://chinese-fonts-cdn.deno.dev/packages/jhlst/dist/京華老宋体v1_007/result.css',
+    'https://chinese-fonts-cdn.deno.dev/packages/jhlst/dist/京華老宋体v2_002/result.css',
+    'https://chinese-fonts-cdn.deno.dev/packages/scjssh/dist/素材集市社会体/result.css',
+    'https://chinese-fonts-cdn.deno.dev/packages/dymh/dist/DouyinSansBold/result.css',
+    'https://static.zeoseven.com/zsft/298/main/result.css',
+
+
     'https://fonts.googleapis.com/css?family=Bitter&display=swap',
     'https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300&display=swap',
     'https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@300&display=swap',
-    'https://chinese-fonts-cdn.deno.dev/packages/jhlst/dist/京華老宋体v1_007/result.css',
   ],
   // 无衬线字体 例如'"LXGW WenKai"'
   FONT_SANS: [
     // '"LXGW WenKai"',
-    'KingHwa_OldSong',
+    // 'KingHwa_OldSong',     // 京華老宋体
+    'SuCaiJiShi-SheHuiTi', // 素材集市社会体
+    '"Douyin Sans"',        // 抖音美好体
+    '荆南波波黑',           // 荆南波波黑
+
     '"PingFang SC"',
     '-apple-system',
     'BlinkMacSystemFont',
