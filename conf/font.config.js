@@ -24,8 +24,8 @@ module.exports = {
   FONT_SANS: [
     // '"LXGW WenKai"',
     // 'KingHwa_OldSong',     // 京華老宋体
-    'SuCaiJiShi-SheHuiTi', // 素材集市社会体
-    '"Douyin Sans"',        // 抖音美好体
+    // 'SuCaiJiShi-SheHuiTi', // 素材集市社会体
+    // '"Douyin Sans"',        // 抖音美好体
     '荆南波波黑',           // 荆南波波黑
 
     '"PingFang SC"',
