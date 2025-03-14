@@ -1,0 +1,175 @@
+/* 赛博朋克核心样式 */
+:root {
+  --neon-blue: #0ff;
+  --neon-pink: #f0f;
+  --cyber-green: #7fff00;
+  --grid-line: rgba(0, 255, 255, 0.1);
+}
+
+/* 动态网格背景 */
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(var(--grid-line) 1px, transparent 1px),
+    linear-gradient(90deg, var(--grid-line) 1px, transparent 1px);
+  background-size: 20px 20px;
+  z-index: -1;
+  opacity: 0.3;
+}
+
+/* 霓虹文字特效 */
+.neon-text {
+  text-shadow: 0 0 5px var(--neon-blue),
+               0 0 10px var(--neon-blue),
+               0 0 20px var(--neon-blue);
+  animation: neonGlow 1.5s ease-in-out infinite alternate;
+}
+
+/* 全息投影效果 */
+.hologram-effect {
+  position: relative;
+  background: linear-gradient(45deg,
+    var(--neon-blue) 20%,
+    var(--neon-pink) 40%,
+    var(--cyber-green) 60%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  filter: drop-shadow(0 0 8px rgba(0, 255, 255, 0.5));
+}
+
+/* 赛博朋克风格按钮 */
+.cyber-button {
+  border: 2px solid var(--neon-blue);
+  background: rgba(0, 0, 0, 0.8);
+  padding: 12px 24px;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s;
+}
+
+.cyber-button::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: linear-gradient(
+    45deg,
+    transparent 25%,
+    var(--neon-blue) 50%,
+    transparent 75%
+  );
+  animation: scanline 3s linear infinite;
+}
+
+@keyframes neonGlow {
+  from {
+    text-shadow: 0 0 2px var(--neon-blue);
+  }
+  to {
+    text-shadow: 0 0 10px var(--neon-blue),
+                 0 0 20px var(--neon-blue),
+                 0 0 30px var(--neon-pink);
+  }
+}
+
+@keyframes scanline {
+  to {
+    transform: translate(50%, 50%) rotate(45deg);
+  }
+}
+
+/* 文章卡片全息效果 */
+.notion-card {
+  position: relative;
+  overflow: hidden;
+  background: rgba(0, 0, 0, 0.7);
+  border: 1px solid var(--neon-blue);
+}
+
+.notion-card::before {
+  content: '';
+  position: absolute;
+  inset: -50%;
+  background: linear-gradient(45deg,
+    transparent 40%,
+    var(--neon-pink) 50%,
+    transparent 60%);
+  animation: hologram 6s linear infinite;
+  opacity: 0.3;
+}
+
+/* 导航菜单扫描线 */
+.sticky-nav {
+  position: relative;
+  overflow: hidden;
+}
+
+.sticky-nav::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 200%;
+  height: 2px;
+  background: linear-gradient(90deg,
+    transparent,
+    var(--cyber-green),
+    transparent);
+  animation: scanline 3s linear infinite;
+}
+
+/* 增强代码块CRT效果 */
+pre {
+  border: 1px solid var(--neon-pink);
+  box-shadow: 0 0 15px var(--neon-pink);
+  position: relative;
+  background: rgba(0, 0, 0, 0.9);
+}
+
+pre::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: repeating-linear-gradient(
+    0deg,
+    rgba(0, 255, 255, 0.05) 0px,
+    rgba(0, 255, 255, 0.05) 1px,
+    transparent 1px,
+    transparent 3px
+  );
+  pointer-events: none;
+}
+
+@keyframes hologram {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* 全局字体设置 */
+body {
+  font-family: 'Oxanium', sans-serif;
+}
+
+pre::after {
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  border: 2px solid var(--neon-blue);
+  animation: borderPulse 2s infinite;
+}
+
+@keyframes borderPulse {
+  0% { opacity: 0.8; }
+  50% { opacity: 0.2; }
+  100% { opacity: 0.8; }
+}
