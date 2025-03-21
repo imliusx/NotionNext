@@ -23,8 +23,9 @@ module.exports = {
   // 无衬线字体 例如'"LXGW WenKai"'
   FONT_SANS: [
     // '"LXGW WenKai"',
-    'KingHwa_OldSong',     // 京華老宋体
-    // 'SuCaiJiShi-SheHuiTi', // 素材集市社会体
+
+    // 'KingHwa_OldSong',     // 京華老宋体
+    'SuCaiJiShi-SheHuiTi', // 素材集市社会体
     // '"Douyin Sans"',        // 抖音美好体
     // '荆南波波黑',           // 荆南波波黑
 
