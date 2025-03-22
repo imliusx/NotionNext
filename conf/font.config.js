@@ -25,10 +25,11 @@ module.exports = {
     // '"LXGW WenKai"',
 
     // 'KingHwa_OldSong',     // 京華老宋体
-    'SuCaiJiShi-SheHuiTi', // 素材集市社会体
+    // 'SuCaiJiShi-SheHuiTi', // 素材集市社会体
     // '"Douyin Sans"',        // 抖音美好体
     // '荆南波波黑',           // 荆南波波黑
 
+    'HarmonyOS_Regular',
     '"PingFang SC"',
     '-apple-system',
     'BlinkMacSystemFont',
@@ -38,7 +39,6 @@ module.exports = {
     '"Segoe UI Symbol"',
     '"Segoe UI"',
     '"Noto Sans SC"',
-    'HarmonyOS_Regular',
     '"Helvetica Neue"',
     'Helvetica',
     '"Source Han Sans SC"',
@@ -49,6 +49,7 @@ module.exports = {
   // 衬线字体 例如'"LXGW WenKai"'
   FONT_SERIF: [
     // '"LXGW WenKai"',
+    'HarmonyOS_Regular',
     'KingHwa_OldSong',     // 京華老宋体'
     'Bitter',
     '"Noto Serif SC"',
