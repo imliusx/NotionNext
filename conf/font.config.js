@@ -14,6 +14,7 @@ module.exports = {
     'https://chinese-fonts-cdn.deno.dev/packages/scjssh/dist/素材集市社会体/result.css',
     'https://chinese-fonts-cdn.deno.dev/packages/dymh/dist/DouyinSansBold/result.css',
     'https://static.zeoseven.com/zsft/298/main/result.css',
+    'https://cdn.hmos.dongs.xyz/css/harmonyos_sans_sc.css',
 
 
     'https://fonts.googleapis.com/css?family=Bitter&display=swap',
@@ -29,6 +30,7 @@ module.exports = {
     // '"Douyin Sans"',        // 抖音美好体
     // '荆南波波黑',           // 荆南波波黑
 
+    'HarmonyOS_Sans_SC_Bold',
     'HarmonyOS_Regular',
     '"PingFang SC"',
     '-apple-system',
