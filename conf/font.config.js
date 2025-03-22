@@ -10,6 +10,7 @@ module.exports = {
   // 字体CSS 例如 https://npm.elemecdn.com/lxgw-wenkai-webfont@1.6.0/style.css
   FONT_URL: [
     // 'https://npm.elemecdn.com/lxgw-wenkai-webfont@1.6.0/style.css',
+    'https://static.zeoseven.com/zsft/309/main/result.css',
     'https://chinese-fonts-cdn.deno.dev/packages/jhlst/dist/京華老宋体v2_002/result.css',
     'https://chinese-fonts-cdn.deno.dev/packages/scjssh/dist/素材集市社会体/result.css',
     'https://chinese-fonts-cdn.deno.dev/packages/dymh/dist/DouyinSansBold/result.css',
@@ -25,12 +26,12 @@ module.exports = {
   FONT_SANS: [
     // '"LXGW WenKai"',
 
-    // 'KingHwa_OldSong',     // 京華老宋体
+    'KingHwa_OldSong',     // 京華老宋体
     // 'SuCaiJiShi-SheHuiTi', // 素材集市社会体
     // '"Douyin Sans"',        // 抖音美好体
     // '荆南波波黑',           // 荆南波波黑
 
-    'HarmonyOS_Sans_SC_Bold',
+    'HarmonyOS Sans SC Bold',
     'HarmonyOS_Regular',
     '"PingFang SC"',
     '-apple-system',
@@ -51,7 +52,7 @@ module.exports = {
   // 衬线字体 例如'"LXGW WenKai"'
   FONT_SERIF: [
     // '"LXGW WenKai"',
-    'HarmonyOS_Regular',
+    // 'HarmonyOS_Regular',
     'KingHwa_OldSong',     // 京華老宋体'
     'Bitter',
     '"Noto Serif SC"',
