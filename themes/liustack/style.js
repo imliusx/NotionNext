@@ -68,6 +68,33 @@ const Style = () => {
         scrollbar-width:thin;
         scrollbar-color: #313335 transparent
     }
+
+    body {
+        font-size: {{ BLOG.FONT_SIZE }} !important;
+        line-height: 1.6;
+    }
+
+    /* 新增整体放大配置 */
+    h1, h2, h3, h4, h5, h6 {
+        font-size: calc({{ BLOG.FONT_SIZE }} * 1.5);
+        line-height: 1.2;
+    }
+
+    .menu-link {
+        font-size: calc({{ BLOG.FONT_SIZE }} * 1.2) !important;
+    }
+
+    .notion-post {
+        font-size: {{ BLOG.FONT_SIZE }};
+    }
+
+    .code-font {
+        font-size: calc({{ BLOG.FONT_SIZE }} * 0.9) !important;
+    }
+
+    #theme-hexo .site-name {
+        font-size: calc({{ BLOG.FONT_SIZE }} * 2) !important;
+    }
     
 
   `}</style>)
