@@ -71,6 +71,7 @@ const Style = () => {
 
     body {
         font-size: {{ BLOG.FONT_SIZE }} !important;
+        font-weight: 700; // 新增加粗设置（正常400/加粗700）
         line-height: 1.6;
     }
 
