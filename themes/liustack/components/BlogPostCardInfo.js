@@ -52,7 +52,7 @@ export const BlogPostCardInfo = ({
               </Link>
 
               <TwikooCommentCount
-                className='text-medium hover:text-indigo-700 dark:hover:text-indigo-400'
+                className='text-sm hover:text-indigo-700 dark:hover:text-indigo-400'
                 post={post}
               />
             </div>
@@ -68,7 +68,7 @@ export const BlogPostCardInfo = ({
 
         {/* 搜索结果 */}
         {post.results && (
-          <p className='line-clamp-2 mt-4 text-gray-700 dark:text-gray-300 text-medium font-nomal leading-7'>
+          <p className='line-clamp-2 mt-4 text-gray-700 dark:text-gray-300 text-sm font-nomal leading-7'>
             {post.results.map((r, index) => (
               <span key={index}>{r}</span>
             ))}
@@ -90,7 +90,7 @@ export const BlogPostCardInfo = ({
           <Link
             href={`/archive#${formatDateFmt(post?.publishDate, 'yyyy-MM')}`}
             passHref
-            className='font-nomal menu-link cursor-pointer text-medium leading-4 mr-3'>
+            className='font-nomal menu-link cursor-pointer text-sm leading-4 mr-3'>
             <i className='far fa-calendar-alt mr-1' />
             {post?.publishDay || post.lastEditedDay}
           </Link>
