@@ -55,7 +55,7 @@ const BLOG = {
   CAN_COPY: process.env.NEXT_PUBLIC_CAN_COPY || true, // 是否允许复制页面内容 默认允许，如果设置为false、则全栈禁止复制内容。
 
   // 侧栏布局 是否反转(左变右,右变左) 已支持主题: hexo next medium fukasawa example
-  LAYOUT_SIDEBAR_REVERSE: process.env.NEXT_PUBLIC_LAYOUT_SIDEBAR_REVERSE || true,
+  LAYOUT_SIDEBAR_REVERSE: process.env.NEXT_PUBLIC_LAYOUT_SIDEBAR_REVERSE || false,
 
   // 欢迎语打字效果,Hexo,Matery主题支持, 英文逗号隔开多个欢迎语。
   GREETING_WORDS: process.env.NEXT_PUBLIC_GREETING_WORDS || 'Stack the Code，Hack the World.',
@@ -64,7 +64,7 @@ const BLOG = {
   UUID_REDIRECT: process.env.UUID_REDIRECT || false,
 
   // 新增字体大小配置
-  FONT_SIZE: process.env.NEXT_PUBLIC_FONT_SIZE || '16px', // 全局基础字体大小
+  FONT_SIZE: process.env.NEXT_PUBLIC_FONT_SIZE || '30px', // 全局基础字体大小
 
 }
 
