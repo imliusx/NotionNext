@@ -46,7 +46,7 @@ export const BlogPostCardInfo = ({
               <Link
                 href={`/category/${post.category}`}
                 passHref
-                className='cursor-pointer font-light text-sm menu-link hover:text-indigo-700 dark:hover:text-indigo-400 transform'>
+                className='cursor-pointer font-nomal text-medium menu-link hover:text-indigo-700 dark:hover:text-indigo-400 transform'>
                 <i className='mr-1 far fa-folder' />
                 {post.category}
               </Link>
@@ -61,14 +61,14 @@ export const BlogPostCardInfo = ({
 
         {/* 摘要 */}
         {(!showPreview || showSummary) && !post.results && (
-          <main className='line-clamp-2 replace my-3 text-gray-700  dark:text-gray-300 text-sm font-light leading-7'>
+          <main className='line-clamp-2 replace my-3 text-gray-700  dark:text-gray-300 text-sm font-nomal leading-7'>
             {post.summary}
           </main>
         )}
 
         {/* 搜索结果 */}
         {post.results && (
-          <p className='line-clamp-2 mt-4 text-gray-700 dark:text-gray-300 text-sm font-light leading-7'>
+          <p className='line-clamp-2 mt-4 text-gray-700 dark:text-gray-300 text-sm font-nomal leading-7'>
             {post.results.map((r, index) => (
               <span key={index}>{r}</span>
             ))}
@@ -90,7 +90,7 @@ export const BlogPostCardInfo = ({
           <Link
             href={`/archive#${formatDateFmt(post?.publishDate, 'yyyy-MM')}`}
             passHref
-            className='font-light menu-link cursor-pointer text-sm leading-4 mr-3'>
+            className='font-nomal menu-link cursor-pointer text-sm leading-4 mr-3'>
             <i className='far fa-calendar-alt mr-1' />
             {post?.publishDay || post.lastEditedDay}
           </Link>
