@@ -11,8 +11,9 @@ module.exports = {
   // 代码主题 @see https://github.com/PrismJS/prism-themes
   PRISM_THEME_PREFIX_PATH:
     process.env.NEXT_PUBLIC_PRISM_THEME_PREFIX_PATH ||
-    'https://cdn.jsdelivr.net/npm/prismjs@1.29.0/themes/prism-okaidia.css', // 代码块默认主题
+    // 'https://cdn.jsdelivr.net/npm/prismjs@1.29.0/themes/prism-okaidia.css', // 代码块默认主题
     // 'https://cdn.jsdelivr.net/npm/prismjs@1.29.0/themes/prism-gruvbox-dark.css', // 代码块默认主题
+    'https://raw.githubusercontent.com/PrismJS/prism-themes/refs/heads/master/themes/prism-holi-theme.css',
     
     
   PRISM_THEME_SWITCH: process.env.NEXT_PUBLIC_PRISM_THEME_SWITCH || false, // 是否开启浅色/深色模式代码主题切换； 开启后将显示以下两个主题
