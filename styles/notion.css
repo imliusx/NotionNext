@@ -642,8 +642,7 @@ svg.notion-page-icon {
   background: var(--bg-color-2);
   border-radius: 3px;
   font-size: 85%;
-  font-family: Menlo, Consolas, 'Liberation Mono', Menlo, Courier,
-    monospace;
+  font-family: 'JetBrains Mono', Consolas, 'Liberation Mono', Menlo, Courier, monospace;
 }
 
 .notion-inline-underscore {
@@ -770,8 +769,7 @@ code[class*='language-'] {
   display: block;
   box-sizing: border-box;
   overflow: auto;
-  font-family: 'JetBrains Mono', Consolas, 'Liberation Mono', Menlo, Courier,
-    monospace;
+  font-family: 'JetBrains Mono', Consolas, 'Liberation Mono', Menlo, Courier, monospace;
   @apply w-full mb-0 dark:bg-black !important;
 }
 

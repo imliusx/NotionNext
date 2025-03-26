@@ -82,6 +82,10 @@ const Style = () => {
     pre, code {
         font-family: "JetBrains Mono";
     }
+    .notion-inline-code {
+        color: #eb5757;
+        font-family: 'JetBrains Mono', Menlo, Consolas, 'Liberation Mono', Menlo, Courier, monospace;
+    }
 
 
   `}</style>)
