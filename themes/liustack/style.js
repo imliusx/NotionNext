@@ -80,7 +80,7 @@ const Style = () => {
 
     /* 代码字体 */
     pre, code {
-        font-family: "JetBrains Mono", ${siteConfig('FONT_SANS').join(', ')};
+        font-family: "JetBrains Mono";
     }
 
 
