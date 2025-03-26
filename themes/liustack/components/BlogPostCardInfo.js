@@ -90,12 +90,12 @@ export const BlogPostCardInfo = ({
           <Link
             href={`/archive#${formatDateFmt(post?.publishDate, 'yyyy-MM')}`}
             passHref
-            className='font-nomal menu-link cursor-pointer text-sm leading-4 mr-3'>
+            className='font-nomal menu-link cursor-pointer text-medium leading-4 mr-3'>
             <i className='far fa-calendar-alt mr-1' />
             {post?.publishDay || post.lastEditedDay}
           </Link>
 
-          <div className='md:flex-nowrap flex-wrap md:justify-start inline-block'>
+          <div className='md:flex-nowrap flex-wrap md:justify-start inline-block font-nomal text-medium'>
             <div>
               {' '}
               {post.tagItems?.map(tag => (
