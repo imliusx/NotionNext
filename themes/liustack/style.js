@@ -69,7 +69,10 @@ const Style = () => {
         scrollbar-color: #313335 transparent
     }
 
-   
+   #typed {
+        // 打字机字体
+        font-family: JetBrains Mono;
+    }
 
   `}</style>)
 }
