@@ -83,7 +83,8 @@ const Style = () => {
         font-family: "JetBrains Mono";
     }
     .notion-inline-code {
-        color: #eb5757;
+        color:rgb(241, 185, 53);
+        font-size: 95%;
         font-family: 'JetBrains Mono', Menlo, Consolas, 'Liberation Mono', Menlo, Courier, monospace;
     }
 
