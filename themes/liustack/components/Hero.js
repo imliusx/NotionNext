@@ -36,7 +36,7 @@ const Hero = props => {
               backSpeed: 50,
               backDelay: 200,
               showCursor: true,
-              smartBackspace: true
+              smartBackspace: false
             })
           )
         }
