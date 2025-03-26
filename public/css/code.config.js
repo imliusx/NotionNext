@@ -14,7 +14,7 @@ module.exports = {
     // 'https://cdn.jsdelivr.net/npm/prismjs@1.29.0/themes/prism-okaidia.css', // 代码块默认主题
     // 'https://cdn.jsdelivr.net/npm/prismjs@1.29.0/themes/prism-gruvbox-dark.css', // 代码块默认主题
     // '/css/prism-gruvbox-dark.css',
-    '/css/prism-holi-theme',
+    '/css/prism-holi-theme.css',
     
     
   PRISM_THEME_SWITCH: process.env.NEXT_PUBLIC_PRISM_THEME_SWITCH || false, // 是否开启浅色/深色模式代码主题切换； 开启后将显示以下两个主题
