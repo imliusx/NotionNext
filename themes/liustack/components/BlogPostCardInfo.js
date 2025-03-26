@@ -85,7 +85,7 @@ export const BlogPostCardInfo = ({
 
       <div>
         {/* 日期标签 */}
-        <div className='text-gray-400 justify-between flex'>
+        <div className='text-gray-400 justify-between items-center flex'>
           {/* 日期 */}
           <Link
             href={`/archive#${formatDateFmt(post?.publishDate, 'yyyy-MM')}`}
