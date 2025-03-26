@@ -642,7 +642,7 @@ svg.notion-page-icon {
   background: var(--bg-color-2);
   border-radius: 3px;
   font-size: 85%;
-  font-family: 'JetBrains Mono', Consolas, 'Liberation Mono', Menlo, Courier,
+  font-family: Menlo, Consolas, 'Liberation Mono', Menlo, Courier,
     monospace;
 }
 
