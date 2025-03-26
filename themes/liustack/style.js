@@ -69,10 +69,25 @@ const Style = () => {
         scrollbar-color: #313335 transparent
     }
 
+
+    // -----------------------------------------------
+    
    #typed {
         // 打字机字体
         font-family: JetBrains Mono;
     }
+
+
+    /* 代码字体 */
+    pre, code {
+        font-family: "JetBrains Mono", ${siteConfig('FONT_SANS').join(', ')};
+    }
+
+    .dark pre, .dark code {
+        color: #e5e7eb;
+    }
+
+
 
   `}</style>)
 }
