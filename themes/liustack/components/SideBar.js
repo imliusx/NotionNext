@@ -26,7 +26,7 @@ const SideBar = props => {
             {/* 头像 */}
             <LazyImage
               src={siteInfo?.icon}
-              className='rounded-full'
+              className='rounded-lg'
               width={80}
               alt={siteConfig('AUTHOR')}
             />
