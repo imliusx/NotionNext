@@ -13,19 +13,20 @@ const Footer = ({ title }) => {
   return (
     <footer className='relative z-10 dark:bg-black flex-shrink-0 bg-hexo-light-gray justify-center text-center m-auto w-full leading-6  text-gray-600 dark:text-gray-100 text-sm p-6'>
       {/* <DarkModeButton/> */}
-      <i className='fas fa:paperclip' /> {`${copyrightDate}`}
+
+      <span className='text-medium'><i className='fas fa-paperclip' /> {`${copyrightDate}`}</span>
       <span>
-        <i className='mx-1 animate-pulse fas fa:globe' />
+        <i className='mx-1 animate-pulse fas fa-globe' />
         <a
           href={siteConfig('LINK')}
-          className='underline font-bold  dark:text-gray-300 '>
+          className='underline font-nomal dark:text-gray-300 '>
           {siteConfig('AUTHOR')}
         </a>
         .<br />
         <BeiAnSite />
         <BeiAnGongAn />
         <span className='hidden busuanzi_container_site_pv'>
-          <i className='fas fa:thumbs-o-up' />
+          <i className='fas fa-thumbs-o-up' />
           <span className='px-1 busuanzi_value_site_pv'> </span>
         </span>
         <span className='pl-2 hidden busuanzi_container_site_uv'>
