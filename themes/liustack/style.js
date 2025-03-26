@@ -71,7 +71,7 @@ const Style = () => {
 
 
     // -----------------------------------------------
-    
+
    #typed {
         // 打字机字体
         font-family: JetBrains Mono;
@@ -82,11 +82,6 @@ const Style = () => {
     pre, code {
         font-family: "JetBrains Mono", ${siteConfig('FONT_SANS').join(', ')};
     }
-
-    .dark pre, .dark code {
-        color: #e5e7eb;
-    }
-
 
 
   `}</style>)
