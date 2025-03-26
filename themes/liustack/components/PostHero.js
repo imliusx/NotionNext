@@ -58,7 +58,7 @@ export default function PostHero({ post, siteInfo }) {
             {post.title}
           </div>
 
-          <section className='flex-wrap shadow-text-md flex text-sm justify-center mt-4 text-white dark:text-gray-400 font-light leading-8'>
+          <section className='flex-wrap shadow-text-md flex text-medium justify-center mt-4 text-white dark:text-gray-400 font-light leading-8'>
             <div className='flex justify-center dark:text-gray-200 text-opacity-70'>
               {post?.type !== 'Page' && (
                 <>
