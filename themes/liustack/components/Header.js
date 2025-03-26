@@ -153,7 +153,7 @@ const Header = props => {
         className={
           'top-0 duration-300 transition-all  shadow-none fixed bg-none dark:bg-hexo-black-gray dark:text-gray-200 text-black w-full z-20 transform border-transparent dark:border-transparent'
         }>
-        <div className='w-full flex justify-between items-center px-4 py-2'>
+        <div className='w-full flex justify-between items-center px-4 py-2 shadow-text'>
           <div className='flex'>
             <Logo {...props} />
           </div>
