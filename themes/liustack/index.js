@@ -179,7 +179,7 @@ const LayoutIndex = props => {
  */
 const LayoutPostList = props => {
   return (
-    <div className='pt-8'>
+    <div className='pt-4'>
       <SlotBar {...props} />
       {siteConfig('POST_LIST_STYLE') === 'page' ? (
         <BlogPostListPage {...props} />
