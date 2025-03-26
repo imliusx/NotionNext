@@ -33,7 +33,7 @@ const BLOG = {
   ...require('./conf/image.config'), // 网站图片相关配置
   ...require('./conf/font.config'), // 网站字体
   ...require('./conf/right-click-menu'), // 自定义右键菜单相关配置
-  ...require('./conf/code.config'), // 网站代码块样式
+  ...require('./public/css/code.config'), // 网站代码块样式
   ...require('./conf/animation.config'), // 动效美化效果
   ...require('./conf/widget.config'), // 悬浮在网页上的挂件，聊天客服、宠物挂件、音乐播放器等
   // ...require('./conf/ad.config'), // 广告营收插件
