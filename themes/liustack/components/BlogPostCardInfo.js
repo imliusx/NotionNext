@@ -96,7 +96,7 @@ export const BlogPostCardInfo = ({
           </Link>
 
           <div className='md:flex-nowrap flex-wrap md:justify-start inline-block font-nomal text-sm'>
-            <div>
+            <div className='flex'>
               {' '}
               {post.tagItems?.map(tag => (
                 <TagItemMini key={tag.name} tag={tag} />

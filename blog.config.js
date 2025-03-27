@@ -63,8 +63,6 @@ const BLOG = {
   // uuid重定向至 slug
   UUID_REDIRECT: process.env.UUID_REDIRECT || false,
 
-  // 新增字体大小配置
-  // FONT_SIZE: process.env.NEXT_PUBLIC_FONT_SIZE || '30px', // 全局基础字体大小
 
 }
 
