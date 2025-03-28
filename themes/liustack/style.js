@@ -86,7 +86,7 @@ const Style = () => {
     .notion {
       /* 正文内容 */
       .notion-text {
-        font-size: 15px;
+        font-size: 17px;
       }
       
       /* 标题 */
