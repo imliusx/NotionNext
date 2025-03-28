@@ -83,32 +83,19 @@ const Style = () => {
         font-family: "JetBrains Mono";
     }
     
-    /* 文章卡片毛玻璃效果 */
-    /* 代码字体 */
-        .notion-inline-code {
-            color:rgb(241, 185, 53);
-            font-size: 95%;
-            font-family: 'JetBrains Mono', Menlo, Consolas, 'Liberation Mono', Menlo, Courier, monospace;
-        }
-    
-        /* 增强毛玻璃效果 */
-        #blog-post-card {
-            background: rgba(255, 255, 255, 0.85) !important;
-            backdrop-filter: blur(16px) saturate(180%);
-            -webkit-backdrop-filter: blur(16px) saturate(180%);
-            border: 1px solid rgba(255, 255, 255, 0.5) !important;
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-        }
-        
-        .dark #blog-post-card {
-            background: rgba(0, 0, 0, 0.6) !important;
-            border: 1px solid rgba(255, 255, 255, 0.1) !important;
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
-        }
+    /* 文章卡片毛玻璃效果 - 调整为与首页按钮一致 */
+    #blog-post-card {
+        background: rgba(255, 255, 255, 0.8) !important;
+        backdrop-filter: blur(12px);
+        -webkit-backdrop-filter: blur(12px);
+        border: 1px solid rgba(255, 255, 255, 0.3) !important;
+        border-radius: 12px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
     
     .dark #blog-post-card {
         background: rgba(0, 0, 0, 0.5) !important;
-        border: 1px solid rgba(0, 0, 0, 0.3) !important;
+        border: 1px solid rgba(255, 255, 255, 0.1) !important;
     } 
   `}</style>)
 }
