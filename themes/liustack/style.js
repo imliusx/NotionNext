@@ -89,6 +89,20 @@ const Style = () => {
     }
 
 
+    /* 文章正文样式 - 添加这部分 */
+    .notion {
+      /* 正文内容 */
+      .notion-text {
+        font-size: 20px;
+        line-height: 1.8;
+      }
+      
+      /* 标题 */
+      .notion-h1 { font-size: 2.2rem; }
+      .notion-h2 { font-size: 1.8rem; }
+      .notion-h3 { font-size: 1.5rem; }
+    }
+      
   `}</style>)
 }
 
