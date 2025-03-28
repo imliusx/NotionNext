@@ -82,19 +82,24 @@ const Style = () => {
     pre, code {
         font-family: "JetBrains Mono";
     }
-    .notion-inline-code {
-        color:rgb(241, 185, 53);
-        font-size: 95%;
-        font-family: 'JetBrains Mono', Menlo, Consolas, 'Liberation Mono', Menlo, Courier, monospace;
+    
+    /* 文章卡片毛玻璃效果 */
+    #blog-post-card {
+        background: rgba(255, 255, 255, 0.7) !important;
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        border: 1px solid rgba(255, 255, 255, 0.3) !important;
+    }
+    
+    .dark #blog-post-card {
+        background: rgba(0, 0, 0, 0.5) !important;
+        border: 1px solid rgba(0, 0, 0, 0.3) !important;
     }
 
-
-    /* 文章正文样式 - 添加这部分 */
-    .notion {
-      /* 正文内容 */
-      .notion-text {
-        font-size: 18px;
-      }
+    /* 确保文字在毛玻璃背景下清晰可见 */
+    #blog-post-card .dark\\:text-gray-100,
+    #blog-post-card .text-gray-600 {
+        color: inherit !important;
     }
       
   `}</style>)
