@@ -81,21 +81,6 @@ const Style = () => {
     /* 代码字体 */
     pre, code {
         font-family: "JetBrains Mono";
-    }
-    
-    /* 文章卡片毛玻璃效果 - 调整为与首页按钮一致 */
-    #blog-post-card {
-        background: rgba(255, 255, 255, 0.8) !important;
-        backdrop-filter: blur(12px);
-        -webkit-backdrop-filter: blur(12px);
-        border: 1px solid rgba(255, 255, 255, 0.3) !important;
-        border-radius: 12px;
-        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    }
-    
-    .dark #blog-post-card {
-        background: rgba(0, 0, 0, 0.5) !important;
-        border: 1px solid rgba(255, 255, 255, 0.1) !important;
     } 
   `}</style>)
 }
