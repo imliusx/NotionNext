@@ -26,14 +26,15 @@ module.exports = {
   FONT_SANS: [
     // '"LXGW WenKai"',
 
-    'JetBrains Mono',
+    'HarmonyOS_Regular',
+    // 'JetBrains Mono',
     'KingHwa_OldSong',     // 京華老宋体
     // 'SuCaiJiShi-SheHuiTi', // 素材集市社会体
     // '"Douyin Sans"',        // 抖音美好体
     // '荆南波波黑',           // 荆南波波黑
 
     'HarmonyOS Sans SC Bold',
-    'HarmonyOS_Regular',
+    
     '"PingFang SC"',
     '-apple-system',
     'BlinkMacSystemFont',
