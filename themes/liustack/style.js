@@ -77,9 +77,11 @@ const Style = () => {
         font-family: JetBrains Mono;
     }
 
-
-    /* 代码字体 */
-    pre, code {
+    // 代码块字体
+    .notion-code {
+        font-family: "JetBrains Mono";  
+    }
+    .notion-inline-code {
         font-family: "JetBrains Mono";
     }
 
@@ -88,11 +90,7 @@ const Style = () => {
       .notion-text {
         font-size: 18px;
       }
-        /* 新增：表格字体设置 */
-      .notion-table {
-        font-family: "Roboto";  
-        font-size: 16px;              
-      }
+
     }
     
   `}</style>)
