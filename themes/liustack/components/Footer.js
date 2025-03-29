@@ -8,13 +8,13 @@ const Footer = ({ title }) => {
   const currentYear = d.getFullYear()
   const since = siteConfig('SINCE')
   const copyrightDate =
-    parseInt(since) < currentYear ? since + '-' + currentYear : currentYear
+    parseInt(since) < currentYear ? since + ' - ' + currentYear : currentYear
 
   return (
     <footer className='relative z-10 dark:bg-black flex-shrink-0 bg-hexo-light-gray justify-center text-center m-auto w-full leading-6  text-gray-600 dark:text-gray-100 text-sm p-6'>
       {/* <DarkModeButton/> */}
 
-      <span className='text-medium'><i className='fas fa-paperclip' /> {`${copyrightDate}`}</span>
+      <span className='text-medium'><i className='fas fa-paperclip' /> {`${copyrightDate}`}  </span>
       <span>
         <i className='mx-1 animate-pulse fas fa-globe' />
         <a
