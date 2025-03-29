@@ -46,7 +46,7 @@ export const BlogPostCardInfo = ({
               <Link
                 href={`/category/${post.category}`}
                 passHref
-                className='cursor-pointer font-nomal text-sm menu-link hover:text-indigo-700 dark:hover:text-indigo-400 transform'>
+                className='cursor-pointer font-normal text-sm menu-link hover:text-indigo-700 dark:hover:text-indigo-400 transform'>
                 <i className='mr-1 far fa-folder' />
                 {post.category}
               </Link>
@@ -61,7 +61,7 @@ export const BlogPostCardInfo = ({
 
         {/* 摘要 */}
         {(!showPreview || showSummary) && !post.results && (
-          <main className='line-clamp-2 replace my-3 text-gray-700  dark:text-gray-300 text-medium font-nomal leading-7'>
+          <main className='line-clamp-2 replace my-3 text-gray-700  dark:text-gray-300 text-medium font-normal leading-7'>
             {post.summary}
           </main>
         )}
@@ -90,12 +90,12 @@ export const BlogPostCardInfo = ({
           <Link
             href={`/archive#${formatDateFmt(post?.publishDate, 'yyyy-MM')}`}
             passHref
-            className='font-nomal menu-link cursor-pointer text-sm leading-4 mr-3'>
+            className='font-normal menu-link cursor-pointer text-sm leading-4 mr-3'>
             <i className='far fa-calendar-alt mr-1' />
             {post?.publishDay || post.lastEditedDay}
           </Link>
 
-          <div className='md:flex-nowrap flex-wrap md:justify-start inline-block font-nomal text-sm'>
+          <div className='md:flex-nowrap flex-wrap md:justify-start inline-block font-normal text-sm'>
             <div className='flex'>
               {' '}
               {post.tagItems?.map(tag => (

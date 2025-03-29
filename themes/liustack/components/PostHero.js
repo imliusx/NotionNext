@@ -58,7 +58,7 @@ export default function PostHero({ post, siteInfo }) {
             {post.title}
           </div>
 
-          <section className='flex-wrap shadow-text-md flex text-medium justify-center mt-4 text-white dark:text-gray-400 font-light leading-8'>
+          <section className='flex-wrap shadow-text-md flex text-medium justify-center mt-4 text-white dark:text-gray-400 font-normal leading-8'>
             <div className='flex justify-center dark:text-gray-200 text-opacity-70'>
               {post?.type !== 'Page' && (
                 <>
@@ -76,7 +76,7 @@ export default function PostHero({ post, siteInfo }) {
             </div>
 
             {JSON.parse(siteConfig('ANALYTICS_BUSUANZI_ENABLE')) && (
-              <div className='busuanzi_container_page_pv font-light mr-2'>
+              <div className='busuanzi_container_page_pv font-normal mr-2'>
                 <span className='mr-2 busuanzi_value_page_pv' />
                 {locale.COMMON.VIEWS}
               </div>

@@ -16,7 +16,7 @@ const Announcement = ({ notice }) => {
             data-aos-anchor-placement="top-bottom"
             className="mb-4 p-2 overflow-auto shadow-md border dark:border-black rounded-xl bg-white dark:bg-hexo-black-gray">
             <div className="text-sm flex flex-nowrap justify-between">
-                <div className="font-light text-gray-600  dark:text-gray-200">
+                <div className="font-normal text-gray-600  dark:text-gray-200">
                     <i className="mx-2 fas fa-bullhorn" />{locale.COMMON.ANNOUNCEMENT}
                 </div>
             </div>
