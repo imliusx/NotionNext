@@ -27,8 +27,8 @@ module.exports = {
   FONT_SANS: [
     // '"LXGW WenKai"',
     
-    '"Work Sans"',
-    // '"Roboto"',
+    // '"Work Sans"',
+    '"Roboto"',
     // '"HarmonyOS Sans SC"',
     // 'JetBrains Mono',
     'KingHwa_OldSong',     // 京華老宋体
