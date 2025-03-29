@@ -21,11 +21,14 @@ module.exports = {
     'https://fonts.googleapis.com/css?family=Bitter&display=swap',
     'https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300&display=swap',
     'https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@300&display=swap',
+    'https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap'
   ],
   // 无衬线字体 例如'"LXGW WenKai"'
   FONT_SANS: [
     // '"LXGW WenKai"',
-    '"PingFang SC"',
+    
+    '"Work Sans"',
+    // '"Roboto"',
     // '"HarmonyOS Sans SC"',
     // 'JetBrains Mono',
     'KingHwa_OldSong',     // 京華老宋体
@@ -34,7 +37,7 @@ module.exports = {
     // '荆南波波黑',           // 荆南波波黑
 
     'HarmonyOS Sans SC',
-    
+
     '"PingFang SC"',
     '-apple-system',
     'BlinkMacSystemFont',
