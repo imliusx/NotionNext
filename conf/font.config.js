@@ -58,6 +58,7 @@ module.exports = {
   FONT_SERIF: [
     // '"LXGW WenKai"',
     // 'HarmonyOS_Regular',
+    '"Roboto"',
     'KingHwa_OldSong',     // 京華老宋体'
     'Bitter',
     '"Noto Serif SC"',

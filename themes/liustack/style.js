@@ -84,10 +84,16 @@ const Style = () => {
     }
 
     .notion {
-      /* 正文内容 */
+        /* 正文内容 */
       .notion-text {
         font-size: 18px;
       }
+        /* 新增：表格字体设置 */
+      .notion-table {
+        font-family: "Roboto";  
+        font-size: 16px;              
+      }
+    }
     
   `}</style>)
 }
