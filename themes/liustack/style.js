@@ -79,10 +79,10 @@ const Style = () => {
 
     #blogTitle {
         // 标题字体
-        font-family: "Chakra Petch", sans-serif;
-        font-weight: 700;
+        font-family: "Urbanist", sans-serif;
+        font-weight: 800;
         font-size: clamp(3.5rem, 8vw, 6rem);
-        font-style: italic;
+        font-style: normal;
     }
     
     #infoCardAuthor {
