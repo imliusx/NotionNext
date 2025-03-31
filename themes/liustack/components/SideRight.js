@@ -72,7 +72,7 @@ export default function SideRight(props) {
         {showCategory && (
           <Card>
             <div className='ml-2 mb-1 '>
-              <i className='fas fa-th' /> {locale.COMMON.CATEGORY}
+              <i className='fa-duotone fa-solid fa-layer-group' /> {locale.COMMON.CATEGORY}
             </div>
             <CategoryGroup
               currentCategory={currentCategory}

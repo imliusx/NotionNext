@@ -25,7 +25,7 @@ export default function SearchNav(props) {
         {/* 分类 */}
         <Card className="w-full mt-4">
             <div className="dark:text-gray-200 mb-5 mx-3">
-                <i className="mr-4 fas fa-th" />
+                <i className="mr-4 fa-duotone fa-solid fa-layer-group" />
                 {locale.COMMON.CATEGORY}:
             </div>
             <div id="category-list" className="duration-200 flex flex-wrap mx-8">
@@ -52,7 +52,7 @@ export default function SearchNav(props) {
         {/* 标签 */}
         <Card className="w-full mt-4">
             <div className="dark:text-gray-200 mb-5 ml-4">
-                <i className="mr-4 fas fa-tag" />
+                <i className="mr-4 fa-duotone fa-solid fa-tags" />
                 {locale.COMMON.TAGS}:
             </div>
             <div id="tags-list" className="duration-200 flex flex-wrap ml-8">
