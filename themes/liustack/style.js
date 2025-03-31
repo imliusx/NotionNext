@@ -79,8 +79,9 @@ const Style = () => {
 
     #blogTitle {
         // 标题字体
-        font-family: "Permanent Marker", cursive;
-        font-weight: 400;
+        font-family: "Orbitron", sans-serif;
+        font-weight: 900;
+        font-size: 85px;
     }
     
     #infoCardAuthor {
