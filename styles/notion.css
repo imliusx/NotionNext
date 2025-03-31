@@ -28,17 +28,17 @@
   --notion-brown: rgb(100, 71, 58);
   --notion-gray: rgb(155, 154, 151);
 
-  --notion-red_background: rgb(251, 228, 228);
-  --notion-pink_background: rgb(244, 223, 235);
-  --notion-blue_background: rgb(221, 235, 241);
-  --notion-purple_background: rgb(234, 228, 242);
-  --notion-teal_background: rgb(221, 237, 234);
-  --notion-yellow_background: rgb(251, 243, 219);
-  --notion-orange_background: rgb(250, 235, 221);
-  --notion-brown_background: rgb(233, 229, 227);
-  --notion-gray_background: rgb(241 241 239);
-  --notion-green_background: rgb(219, 237, 219);
-  --notion-default_background: rgba(227, 226, 224);
+  --notion-red_background: rgb(248, 192, 192);
+  --notion-pink_background: rgb(248, 194, 225);
+  --notion-blue_background: rgb(192, 230, 247);
+  --notion-purple_background: rgb(219, 194, 251);
+  --notion-teal_background: rgb(196, 254, 244);
+  --notion-yellow_background: rgb(251, 237, 194);
+  --notion-orange_background: rgb(251, 222, 195);
+  --notion-brown_background: rgb(237, 201, 183);
+  --notion-gray_background: rgb(237, 237, 184);
+  --notion-green_background: rgb(185, 241, 185);
+  --notion-default_background: rgb(251, 224, 171);
 
   --notion-red_background_co: rgba(251, 228, 228, 0.3);
   --notion-pink_background_co: rgba(244, 223, 235, 0.3);
