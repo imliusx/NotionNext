@@ -77,6 +77,11 @@ const Style = () => {
         font-family: JetBrains Mono;
     }
 
+    #blogTitle {
+        // 标题字体
+        font-family: "Big Shoulders Stencil", sans-serif;
+    }
+
     // 代码块字体
     .notion-code {
         font-family: "JetBrains Mono";  
