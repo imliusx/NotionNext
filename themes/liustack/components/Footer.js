@@ -14,9 +14,9 @@ const Footer = ({ title }) => {
     <footer className='relative z-10 dark:bg-black flex-shrink-0 bg-hexo-light-gray justify-center text-center m-auto w-full leading-6  text-gray-600 dark:text-gray-100 text-sm p-6'>
       {/* <DarkModeButton/> */}
 
-      <span className='text-medium'><i className='fas fa-paperclip' /> {`${copyrightDate}`}    </span>
+      <span className='text-medium'><i className='fa-solid fa-hourglass-half' /> {`${copyrightDate}`}    </span>
       <span>
-        <i className='mx-1 animate-pulse fas fa-globe' />
+        <i className='mx-1 animate-pulse fa-duotone fa-solid fa-wand-magic-sparkles' />
         <a
           href={siteConfig('LINK')}
           className='underline font-nomal dark:text-gray-300 '>
@@ -26,15 +26,18 @@ const Footer = ({ title }) => {
         <BeiAnSite />
         <BeiAnGongAn />
         <span className='hidden busuanzi_container_site_pv'>
-          <i className='fas fa-thumbs-o-up' />
+          <i className='fa-solid fa-hourglass-half' />
           <span className='px-1 busuanzi_value_site_pv'> </span>
+
         </span>
+
         <span className='pl-2 hidden busuanzi_container_site_uv'>
-          <i className='fas fa-users' />
+          <i className='fa-duotone fa-solid fa-wand-magic-sparkles' />
           <span className='px-1 busuanzi_value_site_uv'> </span>
         </span>
+
         <h1 className='text-sm pt-4 text-light-400 dark:text-gray-400'>
-          {title} {siteConfig('BIO') && <>|</>} {siteConfig('BIO')}
+          {title} {siteConfig('BIO') && <> | </>} {siteConfig('BIO')}
         </h1>
         {/* <PoweredBy className='justify-center' /> */}
       </span>
