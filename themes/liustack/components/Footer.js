@@ -17,7 +17,7 @@ const Footer = ({ title }) => {
       <span className='text-medium'><i className='fa-solid fa-hourglass-half' /> {`${copyrightDate}`}    </span>
       <span>
         <i className='mx-1 animate-pulse fa-duotone fa-solid fa-wand-magic-sparkles' />
-        <a
+        <a id='footerAuthor'
           href={siteConfig('LINK')}
           className='underline font-nomal dark:text-gray-300 '>
           {siteConfig('AUTHOR')}
@@ -36,8 +36,9 @@ const Footer = ({ title }) => {
           <span className='px-1 busuanzi_value_site_uv'> </span>
         </span>
 
-        <h1 className='text-sm pt-4 text-light-400 dark:text-gray-400'>
-          {title} {siteConfig('BIO') && <> | </>} {siteConfig('BIO')}
+        <h1 id='footerBIO' className='text-sm pt-4 text-light-400 dark:text-gray-400'>
+          {/* {title} {siteConfig('BIO') && <> | </>} {siteConfig('BIO')} */}
+          {siteConfig('BIO')}
         </h1>
         {/* <PoweredBy className='justify-center' /> */}
       </span>

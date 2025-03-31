@@ -84,7 +84,21 @@ const Style = () => {
         font-size: clamp(3.5rem, 8vw, 6rem);
         font-style: normal;
     }
-    
+     #titleLogo {
+        // 标题logo
+        font-family: "Permanent Marker", cursive;
+        font-weight: 400;
+        font-style: normal;
+    }
+    #footerAuthor {
+        // 底部字体
+        font-family: "Permanent Marker", cursive;
+    }
+    #footerBIO {
+        // 底部字体
+        font-family: "Urbanist", sans-serif;
+    }
+
     #infoCardAuthor {
         // 作者字体
         font-family: "Permanent Marker", cursive;
