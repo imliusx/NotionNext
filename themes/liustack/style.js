@@ -79,9 +79,9 @@ const Style = () => {
 
     #blogTitle {
         // 标题字体
-        font-family: "Righteous", sans-serif;
+        font-family: "Special Elite", system-ui;
         font-weight: 400;
-        font-size: clamp(3.5rem, 8vw, 5.3125rem);
+        font-size: clamp(4rem, 8vw, 6rem);
     }
     
     #infoCardAuthor {
