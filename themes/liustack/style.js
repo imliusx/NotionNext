@@ -79,9 +79,10 @@ const Style = () => {
 
     #blogTitle {
         // 标题字体
-        font-family: "Bodoni Moda", serif;
-        font-weight: 600;
-        font-size: clamp(4rem, 8vw, 6rem);
+        font-family: "Chakra Petch", sans-serif;
+        font-weight: 700;
+        font-size: clamp(3.5rem, 8vw, 6rem);
+        font-style: italic;
     }
     
     #infoCardAuthor {
