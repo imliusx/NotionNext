@@ -23,7 +23,9 @@ export default function ButtonRandomPost(props) {
       title={locale.MENU.WALK_AROUND}
       className='cursor-pointer hover:bg-black hover:bg-opacity-10 rounded-full w-10 h-10 flex justify-center items-center duration-200 transition-all'
       onClick={handleClick}>
-      <i className='fa-solid fa-podcast'></i>
+      <i className='fa-duotone fa-regular fa-compass'></i>
     </div>
   )
 }
+
+
