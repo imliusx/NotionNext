@@ -79,15 +79,15 @@ const Style = () => {
 
     #blogTitle {
         // 标题字体
-        font-family: "Urbanist", sans-serif;
-        font-weight: 800;
+        font-family: "Permanent Marker", cursive;
+        font-weight: 400;
         font-size: clamp(3.5rem, 8vw, 6rem);
         font-style: normal;
     }
     
     #infoCardAuthor {
         // 作者字体
-        font-family: "Righteous", sans-serif;
+        font-family: "Permanent Marker", cursive;
     }
 
     // 代码块字体
