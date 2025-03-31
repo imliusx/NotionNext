@@ -79,8 +79,8 @@ const Style = () => {
 
     #blogTitle {
         // 标题字体
-        font-family: "Orbitron", sans-serif;
-        font-weight: 400;
+        font-family: "Bodoni Moda", serif;
+        font-weight: 600;
         font-size: clamp(4rem, 8vw, 6rem);
     }
     
