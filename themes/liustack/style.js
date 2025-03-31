@@ -81,7 +81,7 @@ const Style = () => {
         // 标题字体
         font-family: "Orbitron", sans-serif;
         font-weight: 900;
-        font-size: 85px;
+        font-size: clamp(2rem, 8vw, 5.3125rem);
     }
     
     #infoCardAuthor {
