@@ -83,7 +83,7 @@ const Style = () => {
     }
     .notion-inline-code {
         font-family: "JetBrains Mono";
-        font-color: #FFB02E;
+        color: #FFB02E;
     }
 
     .notion {
