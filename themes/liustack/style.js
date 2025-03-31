@@ -79,14 +79,14 @@ const Style = () => {
 
     #blogTitle {
         // 标题字体
-        font-family: "Orbitron", sans-serif;
-        font-weight: 900;
-        font-size: clamp(2rem, 8vw, 5.3125rem);
+        font-family: "Righteous", sans-serif;
+        font-weight: 400;
+        font-size: clamp(3.5rem, 8vw, 5.3125rem);
     }
     
     #infoCardAuthor {
         // 作者字体
-        font-family: "Urbanist", sans-serif;
+        font-family: "Righteous", sans-serif;
     }
 
     // 代码块字体
