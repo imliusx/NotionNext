@@ -79,7 +79,7 @@ const Style = () => {
 
     #blogTitle {
         // 标题字体
-        font-family: "Special Elite", system-ui;
+        font-family: "VT323", monospace;
         font-weight: 400;
         font-size: clamp(4rem, 8vw, 6rem);
     }
