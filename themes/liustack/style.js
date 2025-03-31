@@ -79,7 +79,13 @@ const Style = () => {
 
     #blogTitle {
         // 标题字体
-        font-family: "Big Shoulders Stencil", sans-serif;
+        font-family: "Urbanist", sans-serif;
+        font-weight: 800;
+    }
+    
+    #infoCardAuthor {
+        // 作者字体
+        font-family: "Urbanist", sans-serif;
     }
 
     // 代码块字体
