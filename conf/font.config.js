@@ -32,6 +32,7 @@ module.exports = {
     // '"LXGW WenKai"',
     
     // '"Work Sans"',
+    'Inter',
     '"Roboto"',
     // '"HarmonyOS Sans SC"',
     // 'JetBrains Mono',
