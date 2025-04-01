@@ -39,7 +39,7 @@ export default function RightFloatArea({ floatSlot }) {
         '  duration-300 transition-all bottom-12 right-1 fixed justify-end z-20  text-white bg-indigo-500 dark:bg-hexo-black-gray rounded-sm'
       }>
       <div
-        className={'justify-center  flex flex-col items-center cursor-pointer'}>
+        className={'justify-center flex flex-col items-center cursor-pointer'}>
         <ButtonDarkModeFloat />
         {floatSlot}
         <ButtonJumpToTop />
