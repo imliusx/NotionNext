@@ -72,38 +72,30 @@ const Style = () => {
 
     // -----------------------------------------------
 
-   #typed {
+   #typed,
+   #footerBIO,
+   #infoCardBIO {
         // 打字机字体
-        font-family: JetBrains Mono;
+        font-family: "JetBrains Mono", monospace;
+        font-style: normal;
+        font-weight: 400;
     }
 
-    #blogTitle {
+    #blogTitle,
+    #titleLogo,
+    #footerAuthor,
+    #infoCardAuthor {
         // 标题字体
-        font-family: "Bruno Ace SC", sans-serif;
-        font-weight: 800;
-        font-size: clamp(3.5rem, 8vw, 6rem);
-        font-style: normal;
-    }
-     #titleLogo {
-        // 标题logo
         font-family: "Permanent Marker", cursive;
         font-weight: 400;
         font-style: normal;
     }
-    #footerAuthor {
-        // 底部字体
-        font-family: "Permanent Marker", cursive;
+    // 原有单独设置的字体
+    #blogTitle {
+        font-size: clamp(3.5rem, 8vw, 6rem);
     }
-    #footerBIO {
-        // 底部字体
-        font-family: "Urbanist", sans-serif;
-    }
-
-    #infoCardAuthor {
-        // 作者字体
-        font-family: "Permanent Marker", cursive;
-    }
-
+    
+    // -------------------------------------------
     // 代码块字体
     .notion-code {
         font-family: "JetBrains Mono";  
