@@ -79,7 +79,7 @@ const Style = () => {
 
     #blogTitle {
         // 标题字体
-        font-family: "Bungee Shade", sans-serif;
+        font-family: "Jersey 20", sans-serif;
         font-weight: 400;
         font-size: clamp(3.5rem, 8vw, 6rem);
         font-style: normal;
