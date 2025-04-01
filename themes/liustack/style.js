@@ -79,8 +79,8 @@ const Style = () => {
 
     #blogTitle {
         // 标题字体
-        font-family: "Orbitron", sans-serif;
-        font-weight: 900;
+        font-family: "Bruno Ace SC", sans-serif;
+        font-weight: 800;
         font-size: clamp(3.5rem, 8vw, 6rem);
         font-style: normal;
     }
