@@ -81,7 +81,7 @@ const Style = () => {
     
     #footerBIO,
     #infoCardBIO {
-        font-family: "Bodoni Moda", serif;
+        font-family: "Inter", sans-serif;
         font-style: normal;
         font-weight: 400;
    }
