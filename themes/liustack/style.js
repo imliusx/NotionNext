@@ -79,7 +79,7 @@ const Style = () => {
 
     #blogTitle {
         // 标题字体
-        font-family: "Bruno Ace SC", sans-serif;
+        font-family: "Faster One", system-ui;
         font-weight: 400;
         font-size: clamp(3.5rem, 8vw, 6rem);
         font-style: normal;
