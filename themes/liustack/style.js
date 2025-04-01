@@ -70,6 +70,11 @@ const Style = () => {
     }
 
 
+    #home-nav-button {
+        max-width: 68rem;
+    }
+
+
     // -----------------------------------------------
 
    #typed {
