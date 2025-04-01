@@ -86,11 +86,11 @@ const Style = () => {
         font-weight: 400;
    }
         
-    #footerBIO {
-        font-family: "Bodoni Moda", serif;
-        font-style: normal;
-        font-weight: bold;
-    }
+    // #footerBIO {
+    //    font-family: "Bodoni Moda", serif;
+    //    font-style: normal;
+    //    font-weight: 400;
+    // }
     
 
     #blogTitle,
