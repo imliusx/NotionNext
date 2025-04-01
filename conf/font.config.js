@@ -18,6 +18,7 @@ module.exports = {
     'https://cdn.hmos.dongs.xyz/css/harmonyos_sans_sc.css',
     'https://fonts.cdnfonts.com/css/jetbrains-mono',
 
+    'https://fonts.googleapis.com/css2?family=Anta&family=Bruno+Ace+SC&family=Bungee+Inline&family=Bungee+Outline&family=Bungee+Shade&family=Caveat:wght@400..700&family=Faster+One&family=Foldit:wght@100..900&family=Jersey+20&family=Orbitron:wght@900&family=Permanent+Marker&family=Rubik+Doodle+Shadow&family=Urbanist:ital,wght@0,800;1,800&family=Zen+Dots&display=swap',
     'https://fonts.googleapis.com/css?family=Bitter&display=swap',
     'https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300&display=swap',
     'https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@300&display=swap',

@@ -79,15 +79,15 @@ const Style = () => {
 
     #blogTitle {
         // 标题字体
-        font-family: "Permanent Marker", cursive;
-        font-weight: 400;
+        font-family: "Foldit", sans-serif;
+        font-weight: 700;
         font-size: clamp(3.5rem, 8vw, 6rem);
         font-style: normal;
     }
      #titleLogo {
         // 标题logo
         font-family: "Permanent Marker", cursive;
-        font-weight: 400;
+        font-weight: 600;
         font-style: normal;
     }
     #footerAuthor {
