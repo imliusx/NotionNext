@@ -72,14 +72,20 @@ const Style = () => {
 
     // -----------------------------------------------
 
-   #typed,
-   #footerBIO,
-   #infoCardBIO {
+   #typed {
         // 打字机字体
         font-family: "JetBrains Mono", monospace;
         font-style: normal;
         font-weight: 400;
     }
+    
+    #footerBIO,
+    #infoCardBIO {
+        font-family: "Bodoni Moda", serif;
+        font-style: normal;
+        font-weight: 400;
+   }
+    
 
     #blogTitle,
     #titleLogo,
@@ -93,6 +99,13 @@ const Style = () => {
     // 原有单独设置的字体
     #blogTitle {
         font-size: clamp(3.5rem, 8vw, 6rem);
+    }
+
+    // 公告字体
+    #announcement-content {
+        font-family: "Bodoni Moda","KingHwa_OldSong", serif;
+        font-style: normal;
+        font-weight: 400;
     }
     
     // -------------------------------------------
