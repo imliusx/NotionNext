@@ -123,10 +123,11 @@ const Style = () => {
     // -------------------------------------------
     // 代码块字体
     .notion-code {
-        font-family: "JetBrains Mono";  
+        font-family: "JetBrains Mono","KingHwa_OldSong";  
+        font-weight: 400;
     }
     .notion-inline-code {
-        font-family: "JetBrains Mono";
+        font-family: "JetBrains Mono","KingHwa_OldSong";
         color: #FFB02E;
     }
 
