@@ -33,7 +33,7 @@ module.exports = {
     // '"LXGW WenKai"',
     
     // '"Work Sans"',
-    'Manrope',
+    // 'Manrope',
     'Inter',
     '"Roboto"',
     // '"HarmonyOS Sans SC"',
