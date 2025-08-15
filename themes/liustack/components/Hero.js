@@ -23,6 +23,10 @@ const Hero = props => {
 
   // 欢迎语，改为用分号分割
   const GREETING_WORDS = siteConfig('GREETING_WORDS').split(';')
+  
+  // 背景图逻辑：优先使用默认背景图，没有配置则使用 Notion 封面图
+  const backgroundImage = siteConfig('HEXO_HOME_BANNER_DEFAULT_IMAGE', null, CONFIG) || siteInfo?.pageCover
+  
   useEffect(() => {
     updateHeaderHeight()
 
@@ -91,7 +95,7 @@ const Hero = props => {
       <LazyImage
         id='header-cover'
         alt={siteInfo?.title}
-        src={siteInfo?.pageCover}
+        src={backgroundImage}
         className={`header-cover w-full h-screen object-cover object-center ${siteConfig('HEXO_HOME_NAV_BACKGROUND_IMG_FIXED', null, CONFIG) ? 'fixed' : ''}`}
       />
     </header>

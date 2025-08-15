@@ -3,6 +3,9 @@ const CONFIG = {
   // 3.14.1以后的版本中，欢迎语在blog.config.js中配置，用英文逗号','隔开多个。
   HEXO_HOME_BANNER_GREETINGS: ['Stack the Code，Hack the World.'], // 首页大图标语文字
 
+  // 默认背景图配置
+  HEXO_HOME_BANNER_DEFAULT_IMAGE: '/images/liustack-image.jpg', // 默认背景图路径，当 Notion 页面没有封面图时使用
+
   HEXO_HOME_NAV_BUTTONS: true, // 首页是否显示分类大图标按钮
   // 已知未修复bug, 在移动端开启true后会加载不出图片； 暂时建议设置为false。
   HEXO_HOME_NAV_BACKGROUND_IMG_FIXED: false, // 首页背景图滚动时是否固定，true 则滚动时图片不懂动； false则随鼠标滚动 ;
