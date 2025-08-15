@@ -26,12 +26,14 @@ module.exports = {
     'https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@300&display=swap',
     'https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap',
     //'https://fonts.googleapis.com/css2?family=Aldrich&family=Big+Shoulders+Inline:opsz,wght@10..72,100..900&family=Big+Shoulders+Stencil:opsz,wght@10..72,100..900&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Caveat:wght@400..700&family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Damion&family=Lexend+Deca:wght@100..900&family=Luckiest+Guy&family=Monoton&family=Orbitron:wght@400..900&family=Permanent+Marker&family=Righteous&family=Silkscreen:wght@400;700&family=Special+Elite&family=Tektur:wght@400..900&family=Urbanist:ital,wght@0,100..900;1,100..900&family=VT323&display=swap'
+    "https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
   ],
   // 无衬线字体 例如'"LXGW WenKai"'
   FONT_SANS: [
     // '"LXGW WenKai"',
     
     // '"Work Sans"',
+    'Manrope',
     'Inter',
     '"Roboto"',
     // '"HarmonyOS Sans SC"',
